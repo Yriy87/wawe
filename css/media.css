@@ -1,0 +1,405 @@
+@media(max-width: 1200px) {
+
+
+  .about__school-title,
+  .gallery__title,
+  .pricing__title,
+  .team__title {
+    margin-bottom: 50px;
+  }
+
+  .benefits__item::before {
+    display: none;
+  }
+
+
+
+  .benefits__inner {
+    display: block;
+  }
+
+  .gallery__video {
+    padding: 0;
+  }
+
+  .team__items,
+  .pricing__items {
+    column-gap: 20px;
+  }
+}
+
+@media(max-width: 1100px) {
+
+  .about__school {
+    padding: 50px 0;
+  }
+
+  .about__school-box {
+    display: block;
+    padding: 0 10px;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+  }
+
+  .title::after {
+    display: none;
+  }
+
+  .serf {
+    background-image: none;
+  }
+
+  .serf__inner {
+    max-width: 100%;
+    margin-right: auto;
+    padding: 0;
+  }
+
+
+  .blockquote__author {
+    margin-left: 245px;
+  }
+}
+
+
+
+
+@media(max-width: 850px) {
+
+  .about__school {
+    padding: 0px;
+  }
+
+  .benefits__item {
+    width: 100%;
+    padding: 0;
+  }
+
+  .benefits__items {
+    display: block;
+  }
+
+
+  /* .benefits__item-text {
+      margin: 10px 40px;
+    } */
+
+}
+
+@media(max-width: 800px) {
+  .contacts__box {
+    display: block;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+  .contacts__box-list {
+    display: flex;
+    align-items: baseline;
+    padding-top: 20px;
+    flex-wrap: wrap;
+  }
+}
+
+@media(max-width: 768px) {
+  .menu__list {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #ccc;
+    display: block;
+    text-align: center;
+    transform: translateY(-200%);
+    transition: all .9s;
+  }
+
+  ul.menu__list {
+    padding: 90px 0 15px;
+  }
+
+  .menu__list-item+.menu__list-item {
+    margin-left: 0;
+  }
+
+  .menu__list-link {
+    display: block;
+    padding: 15px 0;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .logo {
+    position: relative;
+    z-index: 2;
+  }
+
+  .menu__btn {
+    display: block;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    right: 10px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .header__top-inner.header__top-inner--active .menu__list {
+    transform: translateY(0%);
+  }
+
+  .header__top-inner rect {
+    transition: all .6s;
+  }
+
+  .header__top-inner.header__top-inner--active .menu__btn rect {
+    fill: #fff
+  }
+
+  .header__top-inner .menu__btn rect {
+    fill: #01353E
+  }
+
+  .header__title {
+    font-size: 140px;
+    line-height: 120px;
+  }
+
+  .header__subtitle {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .about__school-title {
+    font-size: 35px;
+    line-height: 15px;
+  }
+
+  .benefits__title {
+    font-size: 35px;
+    line-height: 15px;
+  }
+
+  .serf__title {
+    margin-bottom: 70px;
+    font-size: 35px;
+    padding: 0;
+  }
+
+  .benefits__item-text {
+    margin-right: 5px
+  }
+
+  .blockquote {
+    font-size: 30px;
+  }
+
+  .blockquote__author {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  .gallery__content {
+    justify-content: space-evenly;
+  }
+
+  .gallery__link {
+    margin-bottom: 100px;
+
+  }
+
+  .blockquote {
+    margin-bottom: 100px;
+  }
+
+  .gallery__numbers {
+    flex-wrap: wrap;
+  }
+
+  .gallery__numbers-item {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .pricing__items {
+    display: block;
+  }
+
+  ul.pricing__item {
+    margin: 0 auto 25px;
+    max-width: 500px;
+    width: 100%;
+  }
+}
+
+@media(max-width: 640px) {
+  .team__items {
+    display: block;
+  }
+
+  .team__item {
+    margin-bottom: 25px;
+  }
+
+  .team__item img {
+    margin: 0 auto;
+  }
+
+  .social__box {
+    display: grid;
+    justify-content: space-evenly;
+    row-gap: 25px;
+  }
+}
+
+@media(max-width: 600px) {
+
+  .about__school-title,
+  .serf__title,
+  .benefits__title,
+  .pricing__title,
+  .contacts__title {
+    font-size: 30px;
+  }
+
+  .benefits__item-text {
+    margin-bottom: 40px;
+    padding: 0;
+  }
+
+  .benefits__text p {
+    letter-spacing: 0.6px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+  }
+
+
+  .benefits__info {
+    display: none;
+  }
+
+  .gallery__filter-btn {
+    display: grid;
+    justify-content: space-between;
+    row-gap: 20px;
+    padding-left: 0;
+  }
+
+  slider-blog {
+    margin: 0px
+  }
+
+}
+
+@media(max-width: 520px) {
+  .header__title {
+    font-size: 100px;
+    line-height: 100px;
+  }
+
+  .header__subtitle {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .about__school-title,
+  .serf__title,
+  .benefits__title,
+  .gallery__title,
+  .team__title,
+  .contacts__title {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .benefits {
+    padding: 0;
+  }
+
+  /* .benefits__items {
+    display: block;
+  } */
+
+  .benefits__item-title--sun,
+  .benefits__item-title {
+    margin-bottom: 5px;
+  }
+
+  .benefits__item-text {
+    margin-bottom: 10px;
+  }
+
+  .slider-blog__item-title {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+}
+
+@media(max-width: 440px) {
+  .header__title {
+    font-size: 85px;
+    line-height: 100px;
+  }
+
+  .header__subtitle {
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+  .gallery__link {
+    max-width: 290px;
+    font-size: 15px;
+  }
+
+  .slider-blog__item-title {
+    font-size: 25px;
+    line-height: 35px;
+    padding: 0 10px;
+  }
+
+  .slider-blog__item-descr {
+    padding: 0 10px;
+  }
+
+  .slick-dots button {
+    width: 10px;
+    height: 10px;
+  }
+
+  .slick-dots .slick-active button {
+    width: 10px;
+    height: 10px;
+    transform: translateY(0px);
+  }
+
+  ul.slick-dots {
+    margin-left: 40px;
+  }
+  .form button{
+    padding: 24px 60px 23px;
+  }
+}
+
+@media(max-width: 375px) {
+
+  .about__school-title {
+    font-size: 15px;
+  }
+
+
+  .slider-blog__item-title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .slider-blog__item-descr {
+    font-size: 10px;
+    line-height: 15px;
+  }
+}
